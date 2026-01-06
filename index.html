@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teddy's Story</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="loading-screen">
+        <div class="loader">Loading Teddy's World...</div>
+    </div>
+
+    <!-- Start Screen -->
+    <div id="start-screen" class="hidden">
+        <div class="start-content">
+            <h1>I want to show you something...</h1>
+            <button id="start-btn">See</button>
+        </div>
+    </div>
+
+    <div id="main-container">
+        <!-- The "Video" Frame -->
+        <img id="story-frame" src="assets/ezgif-frame-001.jpg" alt="Story Frame">
+
+        <!-- Overlays -->
+        <div id="text-overlay" class="hidden">Hi!</div>
+
+        <div id="interaction-container" class="hidden">
+            <p id="question-text"></p>
+            <div id="options-container"></div>
+        </div>
+
+        <!-- Letter View -->
+        <div id="letter-overlay" class="hidden">
+            <div class="letter-paper">
+                <p>Hi</p>
+                <p>Lately, I have been thinking about you a lot.</p>
+                <p>Every time I see you, I can’t help but smile. And whenever I think of you, I find myself lost in my
+                    thoughts.</p>
+                <p>I really like you.</p>
+                <p>Would you like to be together?</p>
+                <p>from<br>Shubham</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
